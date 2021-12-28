@@ -40,8 +40,40 @@ td {
 
 #submit {
     position: relative;
-    
+    top: 0;
+    color: #F5F7FA;
+    padding: 20px;
+    text-align: center;
+    line-height: 24px;width: 130px;
+    background-color: #4FC1E9;
+    border-radius: 11px;
+    cursor: pointer;
+    margin: auto;
+    box-shadow: 0 3px #4A89DC;
+    transition: 0.1s ease;
 }
+
+#submit:active {
+    position: relative;
+    box-shadow: 0 0px #4A89DC;
+    top: 3px;
+    box-shadow: 0 0;
+}
+
+form {
+    color: #fff;
+    margin: auto;
+}
+
+input {
+    margin-bottom: 25px;
+    padding: 10px;
+    width: 200px;
+    border-radius: 3px;
+    border: 0;
+}
+
+
 
 div {
     display: inline-block;
