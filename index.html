@@ -11,16 +11,26 @@
     <h1>Expense Tracker</h1>
     <div class="container">
         <form action="">
-        <label>Expense Name</label>
-        <input type="text"><br><br>
+        <label for="expense-name">Expense Name</label>
+        <input type="text" id="expense-name" name="expense-name"><br><br>
 
-        <label>Amount</label>
-        <input type="number"><br><br>
-        
-        <label>Expense Date</label>
-        <input type="date">
+        <label for="amount">Amount</label>
+        <input type="number" id="amount" name="amount" min="1" max="10000"><br><br>
 
+        <label for="expense-date">Expense Date</label>
+        <input type="date" id="date" name="date">
+        <button onclick="">Submit</button>
         </form>
+        <table id="table">
+            <tr>
+                <th id="expense"></th>
+            </tr>
+            <tr>
+                <td id="expense-data"></td>
+                <td></td>
+                <td></td>
+            </tr>
+        </table>
     </div>
 </body>
 </html>
