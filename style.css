@@ -63,6 +63,8 @@ td {
 form {
     color: #fff;
     margin: auto;
+    text-align: center;
+    padding-top: 10px;
 }
 
 input {
