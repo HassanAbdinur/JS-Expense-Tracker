@@ -6,3 +6,7 @@ var expense_data = document.getElementById('expense-data');
 var amount_data = document.getElementById('amount-data');
 var date_data = document.getElementById('date-data');
 
+function expenseLength() {
+    return expense.value.length;
+}
+
