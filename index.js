@@ -18,3 +18,9 @@ function dateLength() {
     return date.value.length;
 }
 
+function createData() {
+    expense_data.innerHTML = expense.value;
+    amount_data.innerHTML = amount.value;
+    date_data.innerHTML = date.value;
+}
+
