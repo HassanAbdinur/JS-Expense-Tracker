@@ -11,5 +11,6 @@ document.getElementById('submit').onclick = function () {
     amount.innerHTML = document.getElementById('amount').value;
     date.innerHTML = document.getElementById('date').value;
 
+
     return false;
 }
