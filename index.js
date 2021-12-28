@@ -10,3 +10,7 @@ function expenseLength() {
     return expense.value.length;
 }
 
+function amountLength() {
+    return amount.value.length;
+}
+
