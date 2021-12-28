@@ -44,7 +44,8 @@ td {
     color: #F5F7FA;
     padding: 20px;
     text-align: center;
-    line-height: 24px;width: 130px;
+    line-height: 24px;
+    width: 130px;
     background-color: #4FC1E9;
     border-radius: 11px;
     cursor: pointer;
@@ -101,5 +102,5 @@ label {
 }
 
 .date {
-    
+    width: 120px;
 }
