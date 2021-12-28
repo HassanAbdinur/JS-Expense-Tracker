@@ -14,3 +14,7 @@ function amountLength() {
     return amount.value.length;
 }
 
+function dateLength() {
+    return date.value.length;
+}
+
