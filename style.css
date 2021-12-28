@@ -104,3 +104,7 @@ label {
 .date {
     width: 120px;
 }
+
+.date-container {
+    margin-right: 25px;
+}
