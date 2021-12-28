@@ -73,7 +73,10 @@ input {
     border: 0;
 }
 
-
+input:active {
+    border: 1px solid #4FC1E9;
+    transition: 0.2s ease;
+}
 
 div {
     display: inline-block;
