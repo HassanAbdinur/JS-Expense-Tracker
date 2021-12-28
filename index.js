@@ -24,3 +24,8 @@ function createData() {
     date_data.innerHTML = date.value;
 }
 
+var submit = document.getElementById('submit').addEventListener('click', function () {
+    if (expenseLength() && amountLength() && dateLength() > 0) {
+        createData();
+    }
+}, true);
