@@ -38,29 +38,6 @@ td {
     background-color: #F5F7FA;
 }
 
-#submit {
-    position: relative;
-    top: 0;
-    color: #F5F7FA;
-    padding: 20px;
-    text-align: center;
-    line-height: 24px;
-    width: 130px;
-    background-color: #4FC1E9;
-    border-radius: 11px;
-    cursor: pointer;
-    margin: auto;
-    box-shadow: 0 3px #4A89DC;
-    transition: 0.1s ease;
-}
-
-#submit:active {
-    position: relative;
-    box-shadow: 0 0px #4A89DC;
-    top: 3px;
-    box-shadow: 0 0;
-}
-
 form {
     color: #fff;
     margin: auto;
@@ -79,6 +56,29 @@ input {
 input:active {
     border: 1px solid #4FC1E9;
     transition: 0.2s ease;
+}
+
+#submit {
+    position: relative;
+    top: 0;
+    color: #F5F7FA;
+    padding: 20px;
+    text-align: center;
+    line-height: 24px;
+    width: 90px;
+    background-color: #4FC1E9;
+    border-radius: 11px;
+    cursor: pointer;
+    margin: auto;
+    box-shadow: 0 3px #4A89DC;
+    transition: 0.1s ease;
+}
+
+#submit:active {
+    position: relative;
+    box-shadow: 0 0px #4A89DC;
+    top: 3px;
+    box-shadow: 0 0;
 }
 
 div {
