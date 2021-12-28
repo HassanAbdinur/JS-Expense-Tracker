@@ -7,9 +7,9 @@ document.getElementById('submit').onclick = function () {
     var amount = row.insertCell(1);
     var date = row.insertCell(2);
 
-    expense.innerHTML = document.getElementById('expense');
-    amount.innerHTML = document.getElementById('amount');
-    date.innerHTML = document.getElementById('date');
+    expense.innerHTML = document.getElementById('expense').value;
+    amount.innerHTML = document.getElementById('amount').value;
+    date.innerHTML = document.getElementById('date').value;
 
     return false;
 }
