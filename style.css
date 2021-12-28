@@ -78,6 +78,13 @@ input:active {
     transition: 0.2s ease;
 }
 
+label {
+    font-size: 1.3em;
+    font-weight: 100;
+    display: inline-block;
+    width: 100px;
+}
+
 div {
     display: inline-block;
     margin-right: 10px;
