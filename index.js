@@ -10,9 +10,7 @@ const expenseLength = () => {
     return expense.value.length;
 }
 
-const amountLength = () => {
-    return amount.value.length;
-}
+const amountLength = () =>  amount.value.length
 
 const dateLength = () => {
     return date.value.length;
