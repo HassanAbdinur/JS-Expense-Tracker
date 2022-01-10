@@ -10,7 +10,7 @@ function expenseLength() {
     return expense.value.length;
 }
 
-function amountLength() {
+const amountLength = () => {
     return amount.value.length;
 }
 
