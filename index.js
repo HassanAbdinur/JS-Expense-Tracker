@@ -18,7 +18,7 @@ const dateLength = () => {
     return date.value.length;
 }
 
-function createData() {
+const createData = () => {
     expense_data.innerHTML = expense.value;
     amount_data.innerHTML = amount.value;
     date_data.innerHTML = date.value;
