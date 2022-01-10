@@ -14,7 +14,7 @@ const amountLength = () => {
     return amount.value.length;
 }
 
-function dateLength() {
+const dateLength = () => {
     return date.value.length;
 }
 
