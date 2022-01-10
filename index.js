@@ -12,9 +12,7 @@ const expenseLength = () => {
 
 const amountLength = () =>  amount.value.length
 
-const dateLength = () => {
-    return date.value.length;
-}
+const dateLength = () => date.value.length
 
 const createData = () => {
     expense_data.innerHTML = expense.value;
