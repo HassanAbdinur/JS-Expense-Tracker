@@ -93,6 +93,10 @@ label {
     width: 100px;
 }
 
+#expense-data {
+    text-transform: capitalize;
+}
+
 .expense {
     width: 100px;
 }
