@@ -1,10 +1,10 @@
-var expense = document.getElementById('expense');
-var amount = document.getElementById('amount');
-var date = document.getElementById('date');
+let expense = document.getElementById('expense');
+let amount = document.getElementById('amount');
+let date = document.getElementById('date');
 
-var expense_data = document.getElementById('expense-data');
-var amount_data = document.getElementById('amount-data');
-var date_data = document.getElementById('date-data');
+let expense_data = document.getElementById('expense-data');
+let amount_data = document.getElementById('amount-data');
+let date_data = document.getElementById('date-data');
 
 const expenseLength = () => expense.value.length
 
@@ -18,7 +18,7 @@ const createData = () => {
     date_data.innerHTML = date.value;
 }
 
-var submit = document.getElementById('submit').addEventListener('click', function () {
+let submit = document.getElementById('submit').addEventListener('click', function () {
     if (expenseLength() && amountLength() && dateLength() > 0) {
         createData();
     }
